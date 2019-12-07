@@ -30,6 +30,7 @@
 
 .card--centered {
   align-items: center;
+  text-align: center;
 }
 
 .card:hover {
