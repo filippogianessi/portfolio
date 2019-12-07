@@ -1,0 +1,29 @@
+.portfolio-hero {
+  padding-bottom: 64px;
+  height: 60vh;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.portfolio-hero--flowing {
+  background-image: url('../img/flowing__hero.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.portfolio-body {
+  padding-top: 72px;
+  padding-bottom: 96px;
+}
+.portfolio-body img {
+  width: 100%;
+}
+
+.navigation__section {
+  background-color: black;
+  padding-top: 64px;
+  padding-bottom: 120px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}

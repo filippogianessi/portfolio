@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.hero__section {
+  background: black;
+  padding-top: 120px;
+  padding-bottom: 96px;
+  color: white;
+}
+
+.logo {
+  padding: 16px;
+  border: 2px solid white;
+  border-radius: 100%;
+  width: 72px;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  line-height: 64px;
+  margin-left: 64px;
+}
+
+.hero__head {
+  display: grid;
+  grid-template-columns: 9fr 3fr;
+  margin-bottom: 56px;
+}
+
+.works__section {
+  background: #FEFEFE;
+  padding-top: 64px;
+  padding-bottom: 120px;
+  color: black;
+}
+
+.works__title {
+  color: black;
+}
+
+.contact__section {
+  background: #C7FCB4;
+  padding-top: 64px;
+  padding-bottom: 120px;
+  color: black;
+  display: grid;
+  grid-template-columns: 3fr 9fr;
+}
+
+.contact__title {
+  writing-mode:vertical-lr;
+  letter-spacing: 4px;
+}
+
+.thanks__section {
+  background: black;
+  padding-top: 64px;
+  padding-bottom: 120px;
+  color: white;
+  display: grid;
+  grid-template-columns: 3fr 9fr;
+}
+
+.thanks__title {
+  writing-mode:vertical-lr;
+  letter-spacing: 4px;
+}
