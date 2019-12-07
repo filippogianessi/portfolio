@@ -1,3 +1,9 @@
+@font-face {
+  font-family: Apfel Grotezk;
+  src: url(../font/ApfelGrotezk-Regular.otf);
+}
+
+
 p {
   font-family: Apfel Grotezk, sans-serif;
   font-style: normal;
