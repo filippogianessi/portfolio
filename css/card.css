@@ -35,3 +35,17 @@
 .card:hover {
   transform: translate(0, -4px);
 }
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .card {
+    border-radius: 24px;
+    padding: 24px 32px 32px;
+  }
+}
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 768px) {}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1440px) {}

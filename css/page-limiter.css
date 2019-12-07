@@ -2,3 +2,26 @@
   padding-left: 200px;
   padding-right: 200px;
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px)  {
+  .page-limiter {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 768px)  {
+  .page-limiter {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px)  {
+  .page-limiter {
+    padding-left: 96px;
+    padding-right: 96px;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1440px)  {}

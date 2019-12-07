@@ -66,3 +66,50 @@ body {
   writing-mode:vertical-lr;
   letter-spacing: 4px;
 }
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .hero__section {
+    padding-top: 64px;
+    padding-bottom: 72px;
+    color: white;
+  }
+  .hero__head {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 32px;
+  }
+  .logo {
+    display: none;
+  }
+  .works__section {
+    padding-top: 32px;
+    padding-bottom: 40px;
+    color: black;
+  }
+  .contact__section {
+    padding-top: 56px;
+    padding-bottom: 72px;
+    grid-template-columns: 1fr;
+  }
+
+  .contact__title {
+    display: none;
+  }
+
+  .thanks__section {
+    padding-top: 32px;
+    padding-bottom: 40px;
+    grid-template-columns: 1fr;
+  }
+
+  .thanks__title {
+    display: none;
+  }
+}
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 768px) {}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1440px) {}
