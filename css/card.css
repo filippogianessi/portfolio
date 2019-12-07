@@ -41,7 +41,7 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .card {
     border-radius: 24px;
-    padding: 24px 32px 32px;
+    padding: 24px 24px 32px;
   }
 }
 
