@@ -15,6 +15,11 @@
   padding-top: 72px;
   padding-bottom: 96px;
 }
+
+.portfolio-body .paragraph--small {
+  color: black;
+}
+
 .portfolio-body img {
   width: 100%;
 }
@@ -27,3 +32,40 @@
   display: flex;
   justify-content: space-between;
 }
+.portfolio-hero--mobile {
+  display: none;
+
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .portfolio-hero {
+    padding-bottom: 32px;
+    height: 24vh;
+  }
+  .portfolio-hero--mobile {
+    display: block;
+  }
+  .portfolio-hero--mobile .title {
+    color: black!important;
+  }
+  .portfolio-hero .title {
+    display: none;
+  }
+  .portfolio-hero .chip__container {
+    display: none;
+  }
+  .portfolio-body {
+    padding-top: 32px;
+    padding-bottom: 72px;
+  }
+  .navigation__section p {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 768px) {}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1440px) {}
