@@ -1,5 +1,5 @@
 .portfolio-hero {
-  padding-bottom: 64px;
+  padding-bottom: 32px;
   height: 60vh;
   display: flex;
   flex-direction: column-reverse;
@@ -10,10 +10,19 @@
   background-size: cover;
   background-position: center;
 }
+.portfolio-hero--ac {
+  background-image: url('../img/ac__hero.png');
+  background-size: cover;
+  background-position: center;
+}
 
 .portfolio-body {
   padding-top: 72px;
   padding-bottom: 96px;
+}
+
+.portfolio-hero__title {
+  color: black;
 }
 
 .portfolio-body .paragraph--small {
