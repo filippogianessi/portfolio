@@ -15,6 +15,11 @@
   background-size: cover;
   background-position: center;
 }
+.portfolio-hero--serendipity {
+  background-image: url('../img/serendipity__hero.png');
+  background-size: cover;
+  background-position: center;
+}
 
 .portfolio-body {
   padding-top: 72px;
