@@ -29,6 +29,12 @@
   background-position: center;
 }
 
+.portfolio-hero--tuotempo {
+  background-image: url('../img/tuotempo__hero.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
 .portfolio-body {
   padding-top: 72px;
   padding-bottom: 96px;
