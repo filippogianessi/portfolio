@@ -26,6 +26,7 @@ body {
   display: grid;
   grid-template-columns: 9fr 3fr;
   margin-bottom: 56px;
+  margin-top: 56px;
 }
 
 .works__section {
