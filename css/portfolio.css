@@ -39,6 +39,11 @@
   background-size: cover;
   background-position: center;
 }
+.portfolio-hero--mpg {
+  background-image: url('../img/mpg__hero.jpg');
+  background-size: cover;
+  background-position: center;
+}
 
 .portfolio-body {
   padding-top: 72px;
