@@ -67,6 +67,10 @@ body {
   letter-spacing: 4px;
 }
 
+.hero__skills {
+  margin-bottom: 64px;
+}
+
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .hero__section {
