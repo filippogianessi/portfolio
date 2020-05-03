@@ -1,8 +1,10 @@
 .portfolio-hero {
   padding-bottom: 32px;
+  padding-top: 64px;
   height: 60vh;
   display: flex;
   flex-direction: column-reverse;
+  justify-content: space-between;
 }
 
 .portfolio-hero--flowing {
@@ -58,7 +60,7 @@
   display: none;
 }
 .hero__back-cta {
-  
+
 }
 
 
