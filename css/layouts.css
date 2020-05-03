@@ -11,6 +11,12 @@
 
 }
 
+.layout__col-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .layout__col-4 {
     display: grid;
@@ -22,7 +28,11 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 16px;
-
+  }
+  .layout__col-3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 16px;
   }
 }
 
