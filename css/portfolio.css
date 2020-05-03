@@ -34,6 +34,11 @@
   background-size: cover;
   background-position: center;
 }
+.portfolio-hero--eidoo {
+  background-image: url('../img/eidoo__hero.jpg');
+  background-size: cover;
+  background-position: center;
+}
 
 .portfolio-body {
   padding-top: 72px;
