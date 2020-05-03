@@ -16,7 +16,8 @@
 
 .card__title {
   color: black;
-  margin-block-end: 24px;
+  margin-block-end: 16px;
+  margin-block-start: 16px;
 }
 
 .card__cta {
