@@ -1,5 +1,5 @@
 .chip {
-  padding: 8px 12px;
+  padding: 8px 16px;
   border: 1px solid black;
   border-radius: 32px;
   margin-right: 8px;
@@ -7,9 +7,9 @@
 }
 
 .chip--dark {
-  border: 1px solid white;
-  color: white;
-  background: rgba(255, 255, 255, 0.5);
+  border: none;
+  color: black;
+  background: rgba(255, 255, 255, 0.4);
   backdrop-filter: blur(10px);
 }
 
