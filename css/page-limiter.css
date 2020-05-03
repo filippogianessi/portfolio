@@ -1,10 +1,19 @@
 .page-limiter {
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.text-limiter {
   padding-left: 25vw;
   padding-right: 25vw;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px)  {
   .page-limiter {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .text-limiter {
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -15,10 +24,18 @@
     padding-left: 64px;
     padding-right: 64px;
   }
+  .text-limiter {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px)  {
   .page-limiter {
+    padding-left: 96px;
+    padding-right: 96px;
+  }
+  .text-limiter {
     padding-left: 96px;
     padding-right: 96px;
   }
