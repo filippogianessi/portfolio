@@ -30,7 +30,7 @@
 .portfolio-body {
   padding-top: 72px;
   padding-bottom: 96px;
-  color: black;
+  color: black !important;
 }
 
 .portfolio-hero__title {
