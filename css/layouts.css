@@ -20,7 +20,7 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .layout__col-4 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-gap: 16px;
   }
 
@@ -38,6 +38,13 @@
 
 @media only screen and (min-device-width: 480px) and (max-device-width: 768px) {}
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .layout__col-4 {
+    grid-template-columns: 1fr 1fr;
+  }
+  .layout__col-3 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1440px) {}
