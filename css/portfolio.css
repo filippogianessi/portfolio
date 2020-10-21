@@ -96,6 +96,9 @@
   .portfolio-hero--mobile .title {
     color: black!important;
   }
+  .portfolio-hero__title {
+    display: none;
+  }
   .portfolio-hero .title {
     display: none;
   }
