@@ -24,23 +24,28 @@
 }
 
 .portfolio-hero--clienspiu {
-  background-image: url('../img/cliens3.jpg');
+  background-image: url('../img/cliens/cliens3.jpg');
   background-size: cover;
   background-position: center;
 }
 
 .portfolio-hero--tuotempo {
-  background-image: url('../img/tuotempo__hero.jpg');
+  background-image: url('../img/tuotempo/tuotempo__hero.png');
   background-size: cover;
   background-position: center;
 }
 .portfolio-hero--eidoo {
-  background-image: url('../img/eidoo__hero.jpg');
+  background-image: url('../img/eidoo/eidoo__hero.jpg');
   background-size: cover;
   background-position: center;
 }
 .portfolio-hero--mpg {
-  background-image: url('../img/mpg__hero.jpg');
+  background-image: url('../img/mpg/mpg__hero.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.portfolio-hero--ristoranti {
+  background-image: url('../img/ristoranti/R__hero.png');
   background-size: cover;
   background-position: center;
 }
