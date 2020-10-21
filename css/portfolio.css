@@ -96,7 +96,7 @@
   .portfolio-hero--mobile .title {
     color: black!important;
   }
-  .portfolio-hero__title {
+  .portfolio-hero__title-desktop {
     display: none;
   }
   .portfolio-hero .title {
