@@ -14,8 +14,7 @@
   left: 0;
   height: 40px;
   overflow: hidden;
-  background-color: black!important;
-  border-bottom: 0.15em solid #000000;
+  background: linear-gradient(180deg, #292929 0%, #101010 100%)!important;
   z-index: 1000;
   width: 150%;
   text-align: left;
@@ -30,8 +29,12 @@
   	color: white;
 }
 .marquee__text {
-    padding-left: 100%;
-    animation: marquee 30s linear infinite;
+    padding-left: 60%;
+    animation: marquee 40s linear infinite;
+}
+.marquee__text span {
+  display: flex;
+  gap: 16px;
 }
 @keyframes marquee {
     0%   { transform: translate(0, 0); }

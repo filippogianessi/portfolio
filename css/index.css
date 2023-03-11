@@ -81,7 +81,21 @@ body {
   padding-bottom: 120px;
   color: black;
 }
+.sideproject  {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 24px;
+}
 
+.sideproject h3 {
+  margin: 0;
+}
+.sideproject p {
+color:black;
+margin: 0;
+
+}
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .hero__section {
