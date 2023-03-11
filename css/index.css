@@ -4,7 +4,7 @@ body {
 }
 
 .hero__section {
-  background: black;
+  background: #111;
   padding-top: 120px;
   padding-bottom: 96px;
   color: white;
@@ -30,7 +30,7 @@ body {
 }
 
 .works__section {
-  background: #FEFEFE;
+  background: #efefef;
   padding-top: 64px;
   padding-bottom: 120px;
   color: black;
@@ -74,6 +74,12 @@ body {
 
 .hero__subtitle {
   margin-bottom: 32px;
+}
+.sideprojects__section {
+  background: #E9FCE6;
+  padding-top: 64px;
+  padding-bottom: 120px;
+  color: black;
 }
 
 
