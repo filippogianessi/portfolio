@@ -5,7 +5,7 @@ body {
 
 .hero__section {
   background: #111;
-  padding-top: 120px;
+  padding-top: 16px;
   padding-bottom: 96px;
   color: white;
 }
@@ -94,12 +94,30 @@ body {
 .sideproject p {
 color:black;
 margin: 0;
-
+}
+.figma-banner__section {
+  background: #111;
+  padding-top: 120px;
+  padding-bottom: 24px;
+  color: white;
+}
+.figma-banner {
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(180deg, #7969FF 0%, #A259FF 100%);
+  border-radius: 20px;
+  padding: 24px 48px;
+  align-items: center;
+  gap: 32px;
+  transition: all  .5s ease-out;
+}
+.figma-banner:hover {
+  transform: translate(0, -4px);
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .hero__section {
-    padding-top: 64px;
+    padding-top: 1px;
     padding-bottom: 72px;
     color: white;
   }
@@ -135,10 +153,38 @@ margin: 0;
   .thanks__title {
     display: none;
   }
+  .figma-banner {
+    flex-direction: column;
+    padding: 32px;
+    align-items: center;
+    gap: 0;
+    text-align: center;
+  }
 }
 
-@media only screen and (min-device-width: 480px) and (max-device-width: 768px) {}
+@media only screen and (min-device-width: 480px) and (max-device-width: 768px) {
+  .figma-banner {
+    flex-direction: column;
+    padding: 48px;
+    align-items: flex-start;
+    gap: 0;
+  }
+}
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .figma-banner {
+    flex-direction: column;
+    padding: 48px;
+    align-items: flex-start;
+    gap: 0;
+  }
+}
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1440px) {}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1440px) {
+  .figma-banner {
+    flex-direction: column;
+    padding: 48px;
+    align-items: flex-start;
+    gap: 0;
+  }
+}

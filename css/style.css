@@ -9,3 +9,22 @@ a {
   background: linear-gradient(180deg, white 0%, transparent 100%);
   border-radius: 16px;
 }
+
+.button--figma-banner {
+  align-self: auto;
+  background: linear-gradient(90deg, #5B2E94 0.2%, rgba(91, 46, 148, 0.2) 100.2%);
+border-radius: 16px;
+}
+
+.button--figma-hero {
+  background: linear-gradient(90deg, #434242 0%, rgba(39, 39, 39, 0) 100%);
+border-radius: 16px;
+}
+
+.button--accent {
+  background: linear-gradient(270deg, #7969FF 0%, #A259FF 100%);
+}
+
+.button--low-accent {
+background: linear-gradient(90deg, #434242 0%, rgba(39, 39, 39, 0) 100%);
+}

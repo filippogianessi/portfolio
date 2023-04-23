@@ -1,0 +1,42 @@
+.figma-hero-img {
+  width: 100%;
+}
+.course-offer__section {
+  background: #111;
+  padding-top: 4px;
+  padding-bottom: 72px;
+  color: white;
+}
+.course-location__section, .course-language__section, .course-steps__section {
+  background: #111;
+  padding-top: 4px;
+  padding-bottom: 72px;
+  color: white;
+}
+
+.course-banners__section {
+  background: #111;
+  padding-top: 4px;
+  padding-bottom: 120px;
+  color: white;
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .course-location__section, .course-language__section, .course-steps__section {
+    padding-bottom: 32px;
+  }
+  .course-banners__section {
+    padding-bottom: 72px;
+  }
+  .course-offer__section {
+
+    padding-bottom: 32px;
+  }
+}
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 768px) {}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1440px) {}

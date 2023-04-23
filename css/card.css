@@ -28,6 +28,15 @@
   gap: 16px;
 }
 
+.card--figma {
+  background: linear-gradient(180deg, #272727 0%, #111111 100%);
+  margin-bottom: 16px;
+}
+
+.card--figma-special {
+  background: linear-gradient(180deg, #7969FF 0%, #A259FF 100%);
+}
+
 .card__title {
   color: black;
   margin-block-end: 24px;
@@ -67,6 +76,14 @@
   .card {
     border-radius: 24px;
     padding: 24px 24px 32px;
+  }
+  .card--horizontal {
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+  }
+  .card--figma {
+    margin-bottom: 8px;
   }
 }
 

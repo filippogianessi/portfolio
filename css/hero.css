@@ -1,0 +1,31 @@
+.hero {
+  background: #111;
+  padding-top: 120px;
+  padding-bottom: 96px;
+  color: white;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 24px;
+}
+
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .hero {
+    padding-top: 96px;
+    padding-bottom: 32px;
+    grid-template-columns: 1fr;
+    grid-gap: 12px;
+  }
+}
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 768px) {}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1440px) {}
