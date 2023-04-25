@@ -31,10 +31,24 @@
 .card--figma {
   background: linear-gradient(180deg, #272727 0%, #111111 100%);
   margin-bottom: 16px;
+  align-items: flex-start;
 }
 
 .card--figma-special {
   background: linear-gradient(180deg, #7969FF 0%, #A259FF 100%);
+}
+
+.card--home {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+}
+
+.card--home img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 320px;
 }
 
 .card__title {
@@ -85,10 +99,45 @@
   .card--figma {
     margin-bottom: 8px;
   }
+  .card--home img {
+    position: inherit;
+    width: 280px;
+  }
+  .card--home {
+    padding: 24px 24px 0 24px;
+    grid-template-columns: 1fr;
+  }
+  .card--home .chip__container {
+    margin-bottom: 0;
+  }
 }
 
-@media only screen and (min-device-width: 480px) and (max-device-width: 768px) {}
+@media only screen and (min-device-width: 480px) and (max-device-width: 768px) {
+  .card--home img {
+    position: inherit;
+    width: 280px;
+  }
+  .card--home {
+    padding: 24px 24px 0 24px;
+    grid-template-columns: 1fr;
+  }
+  .card--home .chip__container {
+    margin-bottom: 0;
+  }
+}
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .card--home img {
+    position: inherit;
+    width: 280px;
+  }
+  .card--home {
+    padding: 24px 24px 0 24px;
+    grid-template-columns: 1fr;
+  }
+  .card--home .chip__container {
+    margin-bottom: 0;
+  }
+}
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1440px) {}
