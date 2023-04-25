@@ -166,6 +166,10 @@ margin: 0;
     padding-bottom: 4px;
     color: white;
   }
+  .hero__skills .card--horizontal {
+    flex-direction: row;
+    gap: 16px;
+  }
 }
 
 @media only screen and (min-device-width: 480px) and (max-device-width: 768px) {
